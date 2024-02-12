@@ -1,15 +1,8 @@
 import React from 'react';
 
-export default function Square ({ value }) {
-    function handleClick() {
-        console.log('click');
-    }
-
+export default function Square ({value}) {
     return(
-        <button 
-            className="square"
-            onClick={handleClick}
-        >
+        <button className="square">
             {value}
         </button>
     );

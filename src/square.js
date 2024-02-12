@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Square ({value}) {
+export default function Square ({ value, onSquareClick }) {
     return(
-        <button className="square">
+        <button className="square" onClick={onSquareClick}>
             {value}
         </button>
     );

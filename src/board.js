@@ -4,8 +4,6 @@ import calculateWinner from './helpers/calculateWinner';
 
 export default function Board({ xIsNext, squares, onPlay }) {
 
-    console.log(xIsNext, squares);
-
     function handleClick(i) {
         if(squares[i] || calculateWinner(squares)) return;
 

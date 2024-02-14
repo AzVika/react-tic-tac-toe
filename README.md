@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Game Tic Tac Toe written in React
+
+This is a classic game that uses 9 fields. The goal of the game is to line up crosses and toes horizontally, vertically or diagonally. Players take turns, the first to line up their symbol wins.
+
+The game involves the participation of two players, displays whose move it is, who won, and records all moves in the history. By clicking on different steps, you can view the entire history of moves.
+
+The game was written using the react library (functional programming).
+During the creation of the game the following skills were mastered:
+- dividing game elements into components,
+- transfer of props from parent to child,
+- creating a state and updating it during user actions.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +27,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Гра Хрестики - Нолики на React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Це класична гра, де використовується 9 полів. Мета гри - побудувати по горизонталі, вертикалі або по діагоналі хрестики або нуліки. Ходять гравці по черзі, хто перший збудує свій символ, той виграв.
 
-### `npm run eject`
+Гра передбачає участь двох гравців, відображає, чий зараз хід, хто виграв, записує в історії всі ходи. Клацаючи на різні кроки, можна переглянути всю історію ходів.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Гра написана з використанням бібліотеки реакт (функціональне програмування).
+Під час створення гри було освоєно навички:
+- поділу елементів гри на компоненти,
+- передача props від батька до дитини,
+- Створення state та його оновлення в ході дій користувача.
